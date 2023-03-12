@@ -1,11 +1,11 @@
-.scoreDiv {
+.score-div {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 20px 30px;
   gap: 20px;
 }
-.game {
+.cards-div {
   width: 90%;
   max-width: 1300px;
   margin: 20px auto;
@@ -14,18 +14,18 @@
   gap: 20px;
   flex-wrap: wrap;
 }
-.game > img {
+.card {
   min-width: 50px;
   max-width: 200px;
   flex-grow: 1;
   border-radius: 0.3em;
 }
 @media (max-width: 700px) {
-  .game > img {
+  .card {
     max-width: 100px;
     flex-grow: 1;
   }
-  .game {
+  .cards-div {
     width: 95%;
   }
 }
